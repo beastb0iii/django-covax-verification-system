@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoVax Checkr</title>
+    <link rel="stylesheet" href="{% static 'Cov/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'Cov/css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger">CoVax Verification Data</h2>
+        {% block content %}
+
+        {% endblock content %}
+    </div>
+
+    <script src="{% static 'Cov/js/jquery.js' %}"></script>
+    <script src="{% static 'Cov/js/popper.js' %}"></script>
+    <script src="{% static 'Cov/js/bootstrap.js' %}"></script>
+</body>
+</html>

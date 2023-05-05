@@ -1,0 +1,25 @@
+body, html {
+    height:100%;
+    background-color: rgb(104, 216, 214);
+    background-repeat: no-repeat;
+}
+
+.col-sm-4 {
+    background-color: rgb(50, 67, 118);
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.col-sm {
+    background-color: rgb(246, 142, 95);
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
